@@ -1,68 +1,72 @@
 /*About*/
 body {
-    background-color: #020305;
-    color: #bcbebd;
-  }
-main{
-    background: black;
+  background-color: #020305;
+  color: #bcbebd;
+}
+main {
+  background: black;
+}
+header {
+  color: #020305;
+  text-decoration: none;
+}
+.about {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+}
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.5em;
+  color: #e8d4b5;
+  text-decoration: underline;
+}
+.about .about_main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.about{
-    width: 100%;
-    height: 100vh;
-    padding: 70px 0;
-}
-@font-face {
-    font-family: My-Brush;
-    src: url(fonts/PaintBrushScript\ Regular.ttf) format("truetype"),
-      url(fonts/PaintBrushScript\ Regular\ 1.otf) format("opentype");
-  }
-
-.about .about_main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.about .about_main .image img {
+  width: 700px;
+  height: 100%;
+  position: relative;
+  top: 27px;
 }
 
-.about .about_main .image img{
-    width: 700px;
-    height: 600px;
-    position: relative;
-    top: 60px;
+.about .about_main .about_text h1 span {
+  color: #fafafa;
+  margin-right: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.about .about_main .about_text h1 span{
-    color: #fafafa;
-    margin-right: 15px;
-    /* font-family: mv boli; */
-    text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
+.about .about_main .about_text h1 {
+  color: #fafafa;
+  font-size: 60px;
+  position: relative;
+  bottom: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-.about .about_main .about_text h1{
-    color: #fafafa;
-    font-size: 60px;
-    position: relative;
-    bottom: 50px;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: underline;
+.about .about_main .about_text h3 {
+  color: #fafafa;
+  font-size: 30px;
+  margin: 0 0 50px 0;
 }
 
-.about .about_main .about_text h3{
-    color: #fafafa;
-    font-size: 30px;
-    margin: 0 0 50px 0;
-}
-
-.about .about_main .about_text p{
-    color: #fafafa;
-    width: 650px;
-    text-align: justify;
-    margin-right: 30px;
-    line-height: 32px;
-    font-size: 20px;
+.about .about_main .about_text p {
+  color: #fafafa;
+  width: 650px;
+  text-align: justify;
+  margin-right: 30px;
+  line-height: 32px;
+  font-size: 20px;
 }
 
 /* .about .about_btn{
@@ -76,8 +80,8 @@ main{
 } */
 
 footer {
-    background-color: #020305;
-    position: fixed;
-    color: #bcbebd;
-    text-align: center;
-  }
+  background-color: #020305;
+  position: fixed;
+  color: #bcbebd;
+  text-align: center;
+}
