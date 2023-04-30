@@ -9,6 +9,7 @@ header {
 footer {
   background-color: #020305;
   color: #bcbebd;
+  text-align: center;
 }
 video {
   max-width: 100%;
