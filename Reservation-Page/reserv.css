@@ -2,10 +2,18 @@
 body {
   background-color: #020305;
 }
+header {
+  color: #020305;
+}
+footer {
+  background-color: #020305;
+  color: #bcbebd;
+  text-align: center;
+}
 .banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("background.jpg") center/cover no-repeat;
+    url("background.webp") center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,7 +28,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .card-img {
-  background: url("banner.jpg") center/cover no-repeat;
+  background: url("banner.webp") center/cover no-repeat;
 }
 .banner h2 {
   padding-bottom: 40px;
@@ -44,10 +52,12 @@ body {
   display: flex;
   width: 90%;
   margin: 0 auto;
+  margin-top: -10px;
 }
+
 form select,
 form input {
-  display: block;
+  display: flexbox;
   width: 100%;
   margin: 15px 12px;
   padding: 5px;
