@@ -14,49 +14,61 @@ footer {
   src: url(fonts/PaintBrushScript\ Regular.ttf) format("truetype"),
     url(fonts/PaintBrushScript\ Regular\ 1.otf) format("opentype");
 }
-.Back {
+.image-back {
   height: 100%;
   width: 100%;
   margin: 0%;
 }
-
-.image-container {
+.image-container-1 {
   position: relative;
-}
-.image-container img {
   width: 100%;
-  height: auto;
+  height: 0;
+  padding-bottom: 66.67%; /* 16:9 aspect ratio */
 }
-.image-container .image1-text {
+.image-container-2 {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 66.67%; /* 16:9 aspect ratio */
+}
+
+.image-wrapper {
   position: absolute;
-  top: 75%;
-  left: 50%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-back {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-1-text {
+  position: absolute;
+  top: 72%;
+  left: 53.5%;
   transform: translate(-50%, -50%);
+  color: white;
+  max-width: 50%;
+  font-size: 5.5em;
+  font-family: My-Brush, cursive;
+}
+
+.image-2-text {
+  position: absolute;
+  top: 27.5%;
+  left: 53.5%;
+  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 50%;
+  font-size: 5.5em;
+  font-family: My-Brush, cursive;
+}
+.image-2-text a {
+  margin: 0;
   color: #fafafa;
-  font-size: 6.75em;
-  font-weight: 500;
-  text-align: center;
-  font-family: "My-Brush", cursive;
-}
-/* .image1-text p {
-  margin: 0;
-} */
-.image-container .image2-text {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 7em;
-  font-weight: 200;
-  text-align: center;
-  font-family: "My-Brush", cursive;
-}
-.image2-text p {
-  margin: 0;
-}
-.image2-text a {
-  margin: 0;
-  color: white;
   text-decoration: none;
 }
