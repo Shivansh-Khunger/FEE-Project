@@ -3,6 +3,9 @@ body {
   color: #bcbebd;
   overflow-y: scroll;
 }
+p{
+  text-transform: capitalize;
+}
 header {
   color: #020305;
 }
