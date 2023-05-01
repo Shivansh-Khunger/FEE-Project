@@ -3,9 +3,6 @@ body {
   color: #bcbebd;
   overflow-y: scroll;
 }
-p{
-  text-transform: capitalize;
-}
 header {
   color: #020305;
 }
@@ -13,6 +10,7 @@ footer {
   background-color: #020305;
   color: #bcbebd;
   text-align: center;
+  position: relative;
 }
 video {
   max-width: 100%;
@@ -214,12 +212,12 @@ li.box:nth-child(1) {
 }
 
 li.box:nth-child(2) {
-  transform: rotate(2deg);
+  transform: rotate(3deg);
 }
 
 li.box:nth-child(3) {
   transform: rotate(3deg);
-  top: -5em;
+  top: 2em;
   position: relative;
 }
 
@@ -227,6 +225,18 @@ li.box:nth-child(4) {
   transform: rotate(-2deg);
   position: relative;
   top: -1.5em;
+}
+
+li.box:nth-child(5) {
+  transform: rotate(-2deg);
+  top: 2em;
+  position: relative;
+}
+
+li.box:nth-child(6) {
+  transform: rotate(5deg);
+  top: -2em;
+  position: relative;
 }
 
 dt {
@@ -251,6 +261,7 @@ dd.description {
 
 dd.description p {
   margin: 0;
+  text-transform: capitalize;
 }
 
 dd.description:before {
