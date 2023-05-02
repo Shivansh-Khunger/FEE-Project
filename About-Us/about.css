@@ -10,6 +10,12 @@ header {
   color: #020305;
   text-decoration: none;
 }
+footer {
+  background-color: #020305;
+  position: relative;
+  color: #bcbebd;
+  text-align: center;
+}
 .about {
   width: 100%;
   height: 100vh;
@@ -67,12 +73,6 @@ header {
   margin-right: 30px;
   line-height: 32px;
   font-size: 20px;
-}
-footer {
-  background-color: #020305;
-  position: relative;
-  color: #bcbebd;
-  text-align: center;
 }
 
 .container {
