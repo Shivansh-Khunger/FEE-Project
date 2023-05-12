@@ -2,9 +2,14 @@
 <html lang="en">
   <head>
     <title>OH! Kerala Login-Page</title>
-    <link rel="shortcut icon" href="../Coffee-Brew.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="../nav.css" />
+    <link
+      rel="shortcut icon"
+      href="../../Coffee-Brew.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="nav-login.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -21,15 +26,27 @@
         <a href="#" class="log">Login</a>
         <img class="brew" src="../Coffee-Brew.webp" alt="" />
         <ul>
-          <li><a href="../index.html">Home</a></li>
+          <li>
+            <a id="Home-Button" href="../../User-Side/Home-Page/home.html"
+              >Home</a
+            >
+          </li>
           <li><a href="../About-Us/about.html">About Us</a></li>
           <li><a href="../Menu-Page/menu.html">Menu</a></li>
           <li><a href="../Reservation-Page/resev.html">Reservation</a></li>
-          <li><a href="../Billing-Page/billing.html">Billing</a></li>
+          <li>
+            <a id="Billing-Button" href="../Billing-Page/billing.html"
+              >Billing</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
-    <img src="login-background.webp" alt="" />
+    <div class="title">
+      <h1 class="item">IF YOU ARE THE OWNER</h1>
+      <h2 class="item">PLEASE PROCEED</h2>
+    </div>
+    <img class="background-image" src="login-background.webp" alt="" />
     <div class="background">
       <div class="shape"></div>
       <div class="shape"></div>
@@ -43,7 +60,7 @@
       <label for="password">Password</label>
       <input type="password" placeholder="Password" id="password" />
 
-      <button>Log In</button>
+      <button id="login-button">Log In</button>
       <div class="social">
         <div
           id="google-login-button"
@@ -66,13 +83,13 @@
         </div>
       </div>
     </form>
-    <!-- <script
+    <script src="login.js"></script>
+    <script src="login2.js"></script>
+    <script
       async
       defer
       crossorigin="anonymous"
       src="https://connect.facebook.net/en_US/sdk.js"
-    ></script> -->
-    <script src="login.js"></script>
-    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+    ></script>
   </body>
 </html>

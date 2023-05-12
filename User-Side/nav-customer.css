@@ -1,0 +1,63 @@
+/* Styles for navigation menu */
+nav {
+  background-color: #020305;
+  border-bottom: 1px solid #232426;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.74%;
+  vertical-align: middle;
+  display: flex;
+  margin-right: 2.37%;
+  margin-left: 2.37%;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav li a {
+  display: block;
+  color: #bcbebd;
+  text-align: center;
+  font-weight: 525;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+nav li a:hover {
+  background-color: #432d19;
+  border-radius: 5px;
+}
+.brew {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-top: 7px;
+}
+.log {
+  float: right;
+  display: block;
+  color: #bcbebd;
+  text-align: center;
+  font-weight: 525;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.log:hover {
+  opacity: 1;
+  background-color: #432d19;
+  border-radius: 5px;
+}
