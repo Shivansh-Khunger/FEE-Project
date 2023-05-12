@@ -1,0 +1,6 @@
+/* Styles for navigation menu */
+nav {
+  display: none;
+  background-color: #020305;
+  border-bottom: 1px solid #232426;
+}

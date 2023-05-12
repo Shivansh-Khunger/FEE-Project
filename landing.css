@@ -1,0 +1,77 @@
+@font-face {
+  font-family: Chalk;
+  src: url(index-fonts/chawp.otf) format("truetype"),
+    url(fonts/chawp.ttf) format("opentype");
+}
+@font-face {
+  font-family: Chalk-x;
+  src: url(index-fonts/PWChalk.ttf) format("truetype");
+}
+@font-face {
+  font-family: My-Brush;
+  src: url(index-fonts/PaintBrushScript\ Regular.ttf) format("truetype"),
+    url(index-fonts/PaintBrushScript\ Regular\ 1.otf) format("opentype");
+}
+body {
+  background-color: #020305;
+  overflow-y: scroll;
+}
+.background {
+  position: absolute;
+}
+.logo-1 {
+  position: absolute;
+  z-index: 1;
+  height: 250px;
+  width: 250px;
+  top: 4%;
+  left: 2%;
+  rotate: -5deg;
+}
+.logo-2 {
+  position: absolute;
+  z-index: 1;
+  height: 250px;
+  width: 250px;
+  bottom: 9%;
+  right: 5%;
+  rotate: 3deg;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  color: #d3ad7c;
+  position: relative;
+  font-size: 35px;
+  max-width: fit-content;
+  text-align: center;
+  font-family: "Chalk-x";
+  margin: 0 auto;
+}
+.buttons {
+  display: flex;
+  position: relative;
+  max-width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+.buttons button {
+  background-color: transparent;
+  color: white;
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: My-Brush, cursive;
+  letter-spacing: 0.7em;
+}
+
+.customer {
+  rotate: 4deg;
+  margin-right: 50px;
+  border: 5px outset white;
+}
+.owner {
+  rotate: -2deg;
+  margin-left: 50px;
+  border: 5px inset white;
+}

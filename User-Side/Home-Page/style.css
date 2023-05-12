@@ -12,8 +12,8 @@ footer {
 }
 @font-face {
   font-family: My-Brush;
-  src: url(fonts/PaintBrushScript\ Regular.ttf) format("truetype"),
-    url(fonts/PaintBrushScript\ Regular\ 1.otf) format("opentype");
+  src: url(../../index-fonts/PaintBrushScript\ Regular.ttf) format("truetype"),
+    url(../../index-fonts/PaintBrushScript\ Regular\ 1.otf) format("opentype");
 }
 .image-back {
   height: 100%;

@@ -44,8 +44,9 @@ document.getElementById("login-button").addEventListener("click", () => {
 
   var is_correct = is_crct(username, password);
   const home = document.getElementById("Home-Button");
+  const billing = document.getElementById("Billing-Button");
   if (is_correct) {
-    home.click();
+    billing.click();
     return;
   }
   alert("Invalid username or password.");

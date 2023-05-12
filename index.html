@@ -1,49 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>OH! Kerala Home-Page</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="Coffee-Brew.ico" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="Home-Page/style.css" />
-    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="landing.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="Login-Page/login.html" class="log">Login</a>
-        <img class="brew" src="Coffee-Brew.webp" alt="" />
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="About-Us/about.html">About Us</a></li>
-          <li><a href="Menu-Page/menu.html">Menu</a></li>
-          <li><a href="Reservation-Page/resev.html">Reservation</a></li>
-          <li><a href="Billing-Page/billing.html">Billing</a></li>
-        </ul>
-      </nav>
+    <img class="logo-1" src="Coffee-Brew.webp" alt="" />
+    <img class="logo-2" src="Coffee-Brew.webp" alt="" />
+    <img class="background" src="index-background.webp" alt="" />
+    <header class="title">
+      <h1 class="item">WELCOME TO OH! KERALA</h1>
+      <h2 class="item">BEFORE YOU CONTINUE.....</h2>
+      <h3 class="item">CAN YOU ANSWER A SMALL QUESTION?</h3>
+      <h3 class="item">ARE YOU ?</h3>
     </header>
-    <main>
-      <div class="image-container-1">
-        <div class="image-wrapper">
-          <img class="image-back" src="Home-Page/updown-shot-3.webp" alt="" />
-          <div class="image-1-text">
-            <p>Welcome to OH! Kerala</p>
-            <p>Where your coffee is treated like it should be.</p>
-          </div>
-        </div>
+    <main class="buttons">
+      <div class="customer">
+        <a href="User-Side/Home-Page/home.html">
+          <button>
+            <h1>Guest</h1>
+          </button>
+        </a>
       </div>
-      <div class="image-container-2">
-        <div class="image-wrapper">
-          <img class="image-back2" src="Home-Page/updown-shot-3.webp" alt="" />
-          <div class="image-2-text">
-            <p>Experience Coffee like never before&period;</p>
-            <p>
-              Checkout our -> <a href="Menu-Page/menu.html">Menu&period;</a>
-            </p>
-          </div>
-        </div>
+      <div class="owner">
+        <a href="Owner-Side/Login-Page/login.html">
+          <button>
+            <h1>Owner</h1>
+          </button>
+        </a>
       </div>
     </main>
-    <footer>
-      <p>&copy; 2023 Caffe Management System. All rights reserved&period;</p>
-    </footer>
   </body>
 </html>

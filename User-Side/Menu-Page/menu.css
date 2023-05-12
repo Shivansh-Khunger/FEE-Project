@@ -18,12 +18,12 @@ main {
 @import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Neucha&family=Londrina+Solid:wght@300&display=swap");
 @font-face {
   font-family: Chalk;
-  src: url(fonts/chawp.ttf) format("truetype"),
-    url(fonts/chawp.ttf) format("opentype");
+  src: url(../../index-fonts/chawp.ttf) format("truetype"),
+    url(../../index-fonts/chawp.ttf) format("opentype");
 }
 @font-face {
   font-family: Chalk-x;
-  src: url(fonts/PWChalk.ttf) format("truetype");
+  src: url(../../index-fonts/PWChalk.ttf) format("truetype");
 }
 
 .content {
