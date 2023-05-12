@@ -14,6 +14,8 @@ nav ul {
   vertical-align: middle;
   display: flex;
   margin-right: 2.37%;
+  margin-left: 2.37%;
+  padding-left: 6%;
 }
 
 nav li {
@@ -28,9 +30,9 @@ nav li a {
   font-size: 1.2rem;
   padding: 14px 16px;
   margin-top: 7px;
+  margin-bottom: 5px;
   text-decoration: none;
 }
-
 nav li a:hover {
   background-color: #432d19;
   border-radius: 5px;
@@ -40,4 +42,23 @@ nav li a:hover {
   height: 48px;
   float: left;
   margin-top: 7px;
+}
+.log {
+  float: right;
+  display: block;
+  color: #bcbebd;
+  text-align: center;
+  font-weight: 525;
+  font-size: 1.2rem;
+  padding: 14px 16px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.log:hover {
+  opacity: 1;
+  background-color: #432d19;
+  border-radius: 5px;
 }

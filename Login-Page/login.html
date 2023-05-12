@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OH! Kerala Login-Page</title>
+    <link rel="shortcut icon" href="../Coffee-Brew.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../nav.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="log">Login</a>
+        <img class="brew" src="../Coffee-Brew.webp" alt="" />
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../About-Us/about.html">About Us</a></li>
+          <li><a href="../Menu-Page/menu.html">Menu</a></li>
+          <li><a href="../Reservation-Page/resev.html">Reservation</a></li>
+          <li><a href="../Billing-Page/billing.html">Billing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <img src="login-background.jpg" alt="" />
+    <div class="background">
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <form>
+      <h3>Login Here</h3>
+
+      <label for="username">Username</label>
+      <input type="text" placeholder="Email or Phone" id="username" />
+
+      <label for="password">Password</label>
+      <input type="password" placeholder="Password" id="password" />
+
+      <button>Log In</button>
+      <div class="social">
+        <div
+          id="google-login-button"
+          class="g-signin2"
+          data-onsuccess="onSignIn"
+        >
+          <i class="fab fa-google"></i> Google
+        </div>
+        <div
+          class="fb-login-button"
+          data-size="medium"
+          data-button-type="login_with"
+          data-layout="rounded"
+          data-auto-logout-link="false"
+          data-use-continue-as="false"
+          scope="public_profile,email"
+          onlogin="checkLoginState();"
+        >
+          <i class="fab fa-facebook"></i> Facebook
+        </div>
+      </div>
+    </form>
+    <!-- <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script> -->
+    <script src="login.js"></script>
+    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+  </body>
+</html>
